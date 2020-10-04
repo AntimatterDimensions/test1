@@ -1,1 +1,31 @@
-define R
+InitAs('GLITCHCODER V5.0.6')
+--LoadSuccessful
+
+##
+define InitLoop(version)
+loopLine%(@14/!28)
+
+define Init(Init.html) 
+from html.gcr import VisualHTML
+
+
+
+loop(from a;1;game.gcr;importsfrom[dimension.gcr, CalcTick.gcr];gcr from gcr):
+\startloop\
+InitLoop(beta0.1.0)
+CalcTick()
+updateD1()
+updateD2()
+updateD3()
+updateD4()
+updateAM()
+updateAMS()
+if ['var' antimatter{dimension.gcr}] = num.1000000000: 
+        broadCast('gameWin')
+        printInConsole!(*Notification^%*)[, , , public void text.gcr]{'%s', , You Win , , '%e'}
+        show('LabelBUTTON',(255,255,255),(0,0,0),('default'),25,'%sYou Win%e'
+        endAll.quit(delay:[y%!,ms,10])
+\endloop\restartInAll(verifyend:l26)\
+
+
+
